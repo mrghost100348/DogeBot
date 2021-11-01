@@ -133,9 +133,9 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "919130208124"; 
+owner = "919130208124"; 
+fakeyoi = "Ghost"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@919130208124"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -343,7 +343,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`919130208124@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -416,11 +416,11 @@ cmhit.push(command)
     mess = {
       wait: "𝙒𝙖𝙞𝙩 𝘼 𝙈𝙞𝙣𝙪𝙩𝙚 シ︎",
       success: "Success シ︎",
-      wrongFormat: "Wrong format, try again in the menu",
+      wrongFormat: "Bhomsdimke wrong Format🥲, try again in the menu🙂",
       error: {
-        stick: "not that sticker :v",
-        apiz: "error!, maybe because the api key has expired",
-        Iv: "The link is error :v",
+        stick: "Mera man nhi he ja😏 :v",
+        apiz: "Fatgayiii😦!, maybe because the api key has expired",
+        Iv: "kripaya limk dalne se pehle akhe Harpik se clean karke check karle 🙂 :v",
       },
       only: {
         group: "Only on chat group",
@@ -445,7 +445,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/919130208124?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -475,7 +475,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "Ghost",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -787,7 +787,7 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            description: "Ghost",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
@@ -941,7 +941,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@mr.ghost_official) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
@@ -956,12 +956,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/919130208124`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/919130208124`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/919130208124`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -974,7 +974,7 @@ sendEphemeral: false,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
-"mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
+"mediaUrl": "https://youtu.be/o_hvTGcbbpM",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
 },mentionedJid:[sender]}, quoted : fgif})
@@ -1313,7 +1313,7 @@ const serialUser = createSerial(18)
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'Xeon', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Ghost', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1337,7 +1337,7 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-       txtt =`Hi ${pushname} 👋\n\nIF MENU DOESNT APPEAR ON CLICKING MENU BUTTON, TYPE #allmenu`
+       txtt =`Hi ${pushname} 👋\n\nIF MENU DOESNT APPEAR ON CLICKING MENU BUTTON, then chupchap #allmenu type kar🙂`
 
                buttons = [{buttonId:`allmenu`, 
                buttonText:{displayText: 'MENU🐶'},type:1},
@@ -1366,7 +1366,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'xeon':
+        case 'ghost':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1377,8 +1377,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "919130208124@s.whatsapp.net"
+        dtod = '919130208124'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1581,9 +1581,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '919130208124'
+   dtod1 = '919130208124'
+   dtod2 = '919130208124'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://instagram.com/mr.ghost_official')
 break
    
 case 'owner':
@@ -1954,7 +1954,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'Ghost',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -1972,7 +1972,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
-                      "title": `Xeon`,
+                      "title": `Ghost`,
  rows: [
                           {
                               "title": "Script",
@@ -2380,7 +2380,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://github.com/mrghost100348/DogeBot/", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2661,7 +2661,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					break
 					//feature by xeon
 					          case 'phcomment':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} name&lol*`)
                    var F = body.slice(10)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2670,42 +2670,42 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nhow is it?`, quoted: mek})
                    break
                            case 'wolf':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it?`, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
          case 'tfire':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break             
        case 'ytgol':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(8)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
        case 'ytsilver':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(10)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
        case 't3d':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂 `, quoted: mek})
                    break
        case 'logoa':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} ghost&lol*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2714,50 +2714,50 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'phlogo':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost&lol*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/phlogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
        case 'marvel':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost&lol*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/marvellogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
        case 'leavest':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂 `, quoted: mek})
                    break                   
        case 'notewrite':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂 `, quoted: mek})
                    break
        case 'neon2':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break                   
        case 'wall':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Ghost*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
-                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it?q`, quoted: mek})
+                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `Ho gaya😌\n\nchal 50rs nikal🙂`, quoted: mek})
                    break
       case "antilink":
         if (!isGroup) return reply("Only in groups");
@@ -2778,7 +2778,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
           );
           reply("Successfully turn off antilink!");
         } else if (!q) {
-          sendButMessage(from, `MODE ANTILINK`, `Please choose one`, [
+          sendButMessage(from, `MODE ANTILINK`, `Jaldi se ek choose kar`, [
             {
               buttonId: `antilink on`,
               buttonText: {
@@ -3352,7 +3352,6 @@ if (Number(oi2) >= 50) return reply('Most!')
             from,
             `── 「 REMINDER 」 ──
     
-Reminder berhasil diaktifkan!
 ➸ Message: ${messRemind}
 ➸ Type: Text
 ➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
@@ -3395,7 +3394,6 @@ Reminder berhasil diaktifkan!
             from,
             `── 「 REMINDER 」 ──
     
-Reminder berhasil diaktifkan!
 ➸ Message: ${messRemind}
 ➸ Type: Sticker
 ➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
@@ -3441,7 +3439,6 @@ Reminder berhasil diaktifkan!
             from,
             `── 「 REMINDER 」 ──
     
-Reminder berhasil diaktifkan!
 ➸ Message: ${messRemind}
 ➸ Type: Image
 ➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
@@ -3483,7 +3480,6 @@ Reminder berhasil diaktifkan!
             from,
             `── 「 REMINDER 」 ──
     
-Reminder berhasil diaktifkan!
 ➸ Message: ${messRemind}
 ➸ Type: Audio
 ➸ Duration: ${parsedTime.hours} Hour ${parsedTime.minutes} Minute ${
@@ -3540,7 +3536,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('https://github.com/DGXeon')
+  reply('https://github.com/mrghost100348/DogeBot/')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -3815,7 +3811,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/mrghost100348/DogeBot/"
         },
         "index": 0
       }
@@ -4474,11 +4470,11 @@ xeon.sendMessage(from, vid, video, {quoted: mek})
 break
 case 'writelist':
   reply(`Example ${prefix}write tes
-  🌿 ${prefix}write Xeon
-  🌿 ${prefix}folioright Xeon
-  🌿 ${prefix}folioleft Xeon
-  🌿 ${prefix}writedown Xeon
-  🌿 ${prefix}writeleft Xeon`)
+  🌿 ${prefix}write Ghost
+  🌿 ${prefix}folioright Ghost
+  🌿 ${prefix}folioleft Ghost
+  🌿 ${prefix}writedown Ghost
+  🌿 ${prefix}writeleft Ghost`)
   break
 case 'folioleft':
 if (!c) return reply('Where is the text bro??')
